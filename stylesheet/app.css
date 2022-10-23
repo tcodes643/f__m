@@ -1,0 +1,31 @@
+*{
+    margin: 0;padding: 0;scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+body{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    height: 100vh;
+}
+form{
+    box-shadow: 0px 0px 2px 0px black;
+    padding: 10px;
+    border-radius: 10px;
+}
+input, button{
+    display:block;
+    margin: 5px 0;
+}
+input, button{
+    padding: 10px;
+    border-radius: 100px;
+    width: 300px;
+    box-shadow: 0px 0px 2px 0px black;
+    border:none;
+}
+button:hover{
+    background-color: black;
+    transition: all linear .2s;
+    color: white;
+}
